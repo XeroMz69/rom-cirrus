@@ -1,0 +1,7 @@
+container:
+  image: openjdk:latest
+  cpu: 4
+  memory: 32G
+
+task:
+  script: curl https://raw.githubusercontent.com/XeroMz69/shell-script-rom/refs/heads/main/derp.sh | bash
