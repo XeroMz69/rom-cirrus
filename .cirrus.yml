@@ -4,4 +4,4 @@ container:
   memory: 32G
 
 task:
-  script: apt update && apt full-upgrade -y && apt install curl && apt install wget && curl https://raw.githubusercontent.com/XeroMz69/shell-script-rom/refs/heads/main/cirrus-derp.sh | bash
+  script: apt-get update -y && apt-get upgrade -y && apt install curl && apt install wget && curl https://raw.githubusercontent.com/XeroMz69/shell-script-rom/refs/heads/main/cirrus-derp.sh | bash
